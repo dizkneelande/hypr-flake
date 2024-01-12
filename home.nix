@@ -43,26 +43,6 @@
   #};
 
 
-  home.packages = with pkgs; [
-    
-    git btop gtop htop libvirt qemu_full virt-manager virtiofsd grim slurp rofi-wayland
-    lm_sensors unzip unrar gnome.file-roller tofi
-    libnotify swaynotificationcenter networkmanagerapplet blueman killall swww imv 
-    wlr-randr xfce.thunar xfce.tumbler v4l-utils yt-dlp gammastep ydotool
-    wl-clipboard scrcpy android-tools socat cowsay lsd neofetch pkg-config cmatrix 
-    lolcat transmission-gtk tty-clock cool-retro-term mpv gimp obs-studio blender openshot-qt
-    firefox thunderbird discord meson glibc gnumake ninja go nodejs_21 rustup vscode
-    pavucontrol pamixer audacity brightnessctl ubuntu_font_family font-awesome symbola
-    material-icons noto-fonts-color-emoji google-fonts corefonts vistafonts
-    noto-fonts-cjk-sans
-    
-    # Import Scripts
-    (import ./scripts/emopicker9000.nix { inherit pkgs; })
-    (import ./scripts/task-waybar.nix { inherit pkgs; })
-    (import ./scripts/squirtle.nix { inherit pkgs; })
-    (import ./scripts/wallsetter.nix { inherit pkgs; })
-  ];
-
   home.pointerCursor = {
     gtk.enable = true;
     x11.enable = true;

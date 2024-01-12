@@ -50,7 +50,7 @@
   home.packages = with pkgs; [
     
     git btop gtop htop libvirt qemu_full virt-manager virtiofsd grim slurp rofi-wayland
-    lm_sensors unzip unrar gnome.file-roller
+    lm_sensors unzip unrar gnome.file-roller tofi
     libnotify swaynotificationcenter networkmanagerapplet blueman killall swww imv 
     wlr-randr xfce.thunar xfce.tumbler v4l-utils yt-dlp gammastep ydotool
     wl-clipboard scrcpy android-tools socat cowsay lsd neofetch pkg-config cmatrix 

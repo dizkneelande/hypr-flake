@@ -23,6 +23,10 @@
     source = ./config/rofi;
     recursive = true;
   };
+  home.file.".config/tofi" = {
+    source = ./config/tofi;
+    recursive = true;
+  };
   home.file.".config/swaync" = {
     source = ./config/swaync;
     recursive = true;

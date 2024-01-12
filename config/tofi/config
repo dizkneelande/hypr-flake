@@ -33,3 +33,5 @@ selection-match-color = #9ece6a
 
 clip-to-padding = false
 require-match = false
+
+drun-launch = true

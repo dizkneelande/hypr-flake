@@ -78,7 +78,98 @@
 
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
-    vim wget curl
+        # Import Scripts
+    (import ../scripts/emopicker9000.nix { inherit pkgs; })
+    (import ../scripts/task-waybar.nix { inherit pkgs; })
+    (import ../scripts/autohypr.nix { inherit pkgs; })
+    # Utils
+    vim
+    wget
+    btop
+    htop
+    git
+    libvirt
+    qemu_full
+    virt-manager
+    virtiofsd
+    grim
+    slurp
+    lm_sensors
+    unzip
+    unrar
+    gnome.file-roller
+    gnome-browser-connector
+    gnome.gnome-tweaks
+    libnotify
+    swaynotificationcenter
+    tofi
+    waybar
+    #networkmanager
+    networkmanagerapplet
+    #bluez
+    blueman
+    killall
+    swww
+    imv
+    wlr-randr
+    kitty
+    xfce.thunar
+    xfce.tumbler
+    v4l-utils
+    yt-dlp
+    gammastep
+    # Misc
+    ydotool
+    wl-clipboard
+    scrcpy
+    android-tools
+    socat
+    cowsay
+    lsd
+    neofetch
+    pkg-config
+    cmatrix
+    lolcat
+    transmission-gtk
+    tty-clock
+    cool-retro-term
+    # Photo & Video
+    mpv
+    gimp
+    obs-studio
+    blender
+    openshot-qt
+    # Online
+    firefox
+    thunderbird
+    discord
+    # Dev
+    meson
+    glibc
+    hugo
+    gnumake
+    ninja
+    go
+    nodejs_21
+    rustup
+    vscode
+    # Audio and Brightness
+    pavucontrol
+    pamixer
+    audacity
+    brightnessctl
+    # Fonts and icons
+    ubuntu_font_family
+    font-awesome
+    symbola
+    material-icons
+    tokyo-night-gtk
+    bibata-cursors
+    noto-fonts-cjk-sans
+    noto-fonts-color-emoji
+    google-fonts
+    corefonts
+    vistafonts
   ];
   
   # Nerdfonts

@@ -19,10 +19,6 @@
     source = ./fonts;
     recursive = true;
   };
-  home.file.".config/rofi" = {
-    source = ./config/rofi;
-    recursive = true;
-  };
   home.file.".config/tofi" = {
     source = ./config/tofi;
     recursive = true;

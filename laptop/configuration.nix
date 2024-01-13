@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./vm.nix
     ];
 
   # Bootloader
@@ -90,8 +91,6 @@
     git
     libvirt
     qemu_full
-    virt-manager
-    virtiofsd
     grim
     slurp
     lm_sensors

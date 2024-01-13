@@ -4,5 +4,5 @@ copy clamshell script to ~
 
 TODO 
 
-- configure workstation flake option
-- tofi-drun error
+- configure .#workstation option
+- tofi-drun error (solved)

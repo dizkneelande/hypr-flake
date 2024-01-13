@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       ./vm.nix
       ./laptop.nix
+      ./hardware-acceleration.nix
     ];
 
   # Bootloader

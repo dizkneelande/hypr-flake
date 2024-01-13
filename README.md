@@ -1,4 +1,5 @@
 sudo nixos-rebuild switch --flake .#laptop
+
 copy clamshell script to ~
 
 TODO 

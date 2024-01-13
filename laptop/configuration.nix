@@ -11,6 +11,7 @@
       ./vm.nix
       ./laptop.nix
       ./hardware-acceleration.nix
+      ./uxplay.nix
     ];
 
   # Bootloader
